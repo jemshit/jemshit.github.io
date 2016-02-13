@@ -1,0 +1,97 @@
+---
+
+port: 9090
+host: 127.0.0.1
+safe: true
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore, LICENSE.md]
+include: [.htaccess]
+permalink: /:year ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: pygments
+encoding:   utf-8   
+
+
+### content configuration ###
+title:       "Jemshit Iskenderov - Personal Website"
+keywords:    "Jemshit, Jemshit Iskenderov, Jemshit Iskanderov, Iskenderov, Iskanderov"
+description: "Personal Website of Jemshit Iskenderov"
+source_link: "http://www.jemshit.com"
+favicon:     "img/favicon.ico"
+touch_icon:  "img/favicon.ico"
+google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+    black-secondary:    '#111111'
+    white-secondary:     '#f8f8f8'
+    blue:      '#49a7e9'
+    green:     '#9bcf2f'
+    purple:    '#c869bf'
+    orange-secondary:    '#fab125'
+    turquoise: '#0fbfcf'
+  
+    brand-primary: '#428bca'
+    brand-success: '#5cb85c'
+    brand-info:    '#5bc0de'
+    brand-warning: '#f0ad4e'
+    brand-danger:  '#d9534f'
+
+    black:  '#000000'
+    choko_light:    '#555555'
+    choko_dark: '#333333'
+    choko_darker:   '#222222'
+    white:  '#ffffff'
+    gray_light0:    '#c7c7c7'
+    gray_light1:    '#dedede'
+    gray_light2:    '#eeeeee'
+    gray_light3:    '#fafafa'
+    grayDark:   '#878787'
+    grayish:    '#424242''
+
+    yellowish:  '#ffcc00'
+    yellowLight:    '#f6c337'
+    yellowDark: '#d49b00'
+    orangeLight:    '#ff8800'
+    orange: '#ffbb33'
+    orangeDark: '#cc6c00'
+
+    pink:   '#FF0AD0'
+
+    indigo: '#3f51b5'
+    indigoDark: '#1A237E'
+    purblue:    '#4285f4'
+    purpleLight:    '#aa66cc'
+    purpleNormal:   '#7E57C2'
+    purpleDark: '#9933cc'
+
+    blue2:  '#01b0ec'
+    loginBgColor:   '#64bff6'
+    buttonColorNormal:  '#1E88E5'
+    buttonColorPressed: '#1565C0'
+    blueLighter1:   '#bbdefb'
+    blueLighter2:   '#90CAF9'
+    blueLight:  '#33b5e5'
+    blueDark:   '#0099cc'
+    blueDarker: '#007aa3'
+
+    red2:   '#c40f0f'
+    redLight:   '#ff4444'
+    redDark:    '#cc0000'
+    redDimmed:  '#e57266'
+
+    green1: '#40b506'
+    green2: '#73e811'
+    green3: '#99cc00'
+    greenLight: '#669900'
+    greenDark:  '#517a00'
+
+    lightBack1: '#f1f4f6'
+    lightBack2: '#f5f4f1'
+    lightBack3: '#d8e1e5'
+    lightBack4: '#bfccd4'
