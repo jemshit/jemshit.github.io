@@ -52,9 +52,9 @@ colors:
     gray_light2:    '#eeeeee'
     gray_light3:    '#fafafa'
     grayDark:   '#878787'
-    grayish:    '#424242''
+    grayish:    '#424242'
 
-    yellowish:  '#ffcc00'
+    yellowTop:  '#ffcc00'
     yellowLight:    '#f6c337'
     yellowDark: '#d49b00'
     orangeLight:    '#ff8800'
