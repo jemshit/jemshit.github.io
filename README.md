@@ -8,7 +8,7 @@ Built on top of project from [here.](https://github.com/t413/SinglePaged)
 
 ### License
 ---
-Copyright 2016 Jemshit Iskenderov
+© 2016 
 
 1. Give :star:
 2. Use Project :+1:
