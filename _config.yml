@@ -12,7 +12,7 @@ permalink: /:year ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 encoding:   utf-8   
 
 
