@@ -1,8 +1,6 @@
 ### Personal Website
 ---
-[jemshit.github.io](http://jemshit.github.io) 
-
-Built on top of project from [here.](https://github.com/t413/SinglePaged)
+Site: [www.jemshit.com](http://jemshit.com). Built on top of project from [here.](https://github.com/t413/SinglePaged)
 
 
 
