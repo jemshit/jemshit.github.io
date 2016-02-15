@@ -1,4 +1,6 @@
-html { box-sizing: border-box; }
+html { 
+    box-sizing: border-box;    
+}
 *, *:before, *:after { box-sizing: inherit; }
 
 /* ---------------------------*/
@@ -13,6 +15,7 @@ html { box-sizing: border-box; }
 .text-{{c[0]}} a { color: {{ c[1] }}; }
 .bg-{{c[0]}}     { background-color: {{ c[1] }} !important; }
 {% endfor %}
+
 
 /* ----- per-post colors! ----- */
 {% for node in site.posts %}
@@ -108,6 +111,15 @@ hr {
 /* ---------------------------*/
 /* ----- Main Structure ----- */
 /* ---------------------------*/
+a.socialLink{
+    display:inline-block;
+    border-radius: 50%;
+    padding-top:1px;
+}
+a.socialLink:hover{
+    background-color: aliceblue;
+}
+
 
 /* ----- top menu ----- */
 
@@ -170,9 +182,13 @@ nav ul li:hover, nav ul li.active {
   display:block;
   width:100%;
   min-height:300px;
-  padding:210px 0;
-  /*background:url(img/bgnoise.png);*/
-  /* generated noise from noisetexturegenerator.com */
+  padding:210px 0;  
+  background-image:url(img/background_top.jpg);
+  background-size:     cover;                      
+  background-repeat:   no-repeat;
+}
+.section ~ .section{
+    background:url(img/empty.png);
 }
 
 .section:first-of-type {
@@ -189,6 +205,20 @@ nav ul li:hover, nav ul li.active {
 }
 #footer .container p { font-size:13px; margin:0; }
 
+.circleProfile{
+    display: inline-block;
+    height: 200px;
+    width:200px;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    border: 10px solid rgba(0,0,0,0.05);
+}
+.circleProfile img{       
+    max-height: auto;
+    max-width: 100%;
+}
+
 .subtlecircle {
   text-align:center;
   z-index:3;
@@ -200,24 +230,24 @@ nav ul li:hover, nav ul li.active {
 }
 
 .sectiondivider {
-  width:270px;
-  height:270px;
-  padding:15px;
+  width:200px;
+  height:200px;
+  padding:10px;
   position:absolute;
-  top:-135px;
+  top:-100px;
   left:50%;
-  margin-left:-135px;
+  margin-left:-100px;
 }
 
 .sectiondivider img {
-  width:200px;
-  height:240px;
+  width:140px;
+  height:140px;
   position: static;
   margin-top: -20px;
 }
 
 .sectiondivider .fa-stack {
-  font-size: 130px;
+  font-size: 100px;
   position: static;
   margin-top: -8px;
 }
@@ -228,12 +258,12 @@ nav ul li:hover, nav ul li.active {
   font-weight:700;
   text-transform:uppercase;
   position:absolute;
-  bottom:50px;
+  bottom:30px;
   left:auto;
   text-align:center;
   display:block;
   z-index:6;
-  width:240px;
+  width:180px;
 }
 
 .sectiondivider.imaged {
