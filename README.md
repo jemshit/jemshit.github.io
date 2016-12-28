@@ -7,7 +7,7 @@ Site: [www.jemshit.com](http://jemshit.com). Built on top of project from [here.
 ### License
 ---
 
-    Copyright 2016 Jemshit Iskenderov.
+    Copyright 2016 Jemshit Iskanderov.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
