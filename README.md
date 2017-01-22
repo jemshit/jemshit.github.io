@@ -8,7 +8,7 @@ Site: [www.jemshit.com](http://jemshit.com). Built on top of project from [here.
 ---
 
     The MIT License (MIT)
-    Copyright (c) 2014 Tim O'Brien (t413)
+    Copyright 2014 Tim O'Brien (t413)
     
     Copyright 2016 Jemshit Iskanderov.
 
